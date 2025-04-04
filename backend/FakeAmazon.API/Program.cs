@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend",
         policy =>
         {
-            policy.WithOrigins("http://localhost:3001", "https://mango-hill-0491b7a1e.6.azurestaticapps.net")
+            policy.WithOrigins("http://localhost:3001", "https://calm-plant-036c7c01e.6.azurestaticapps.net")
                 .AllowCredentials()
                 .AllowAnyHeader()
                 .AllowAnyMethod();
